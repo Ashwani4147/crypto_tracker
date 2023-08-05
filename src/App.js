@@ -34,6 +34,23 @@ function App() {
       </form>
     </div>
 
+
+
+    <div className='container'>
+            <div>
+                <div className='heading'>
+                    <p>#</p>
+                    <p className='coin-name'>Coin</p>
+                    <p>Price</p>
+                    <p>24h</p>
+                    <p className='hide-mobile'>Volume</p>
+                    <p className='hide-mobile'>Mkt Cap</p>
+                </div>
+
+
+
+
+
     {filteredCoins.map(coin=>{
       return (
         <Coin 
@@ -51,7 +68,8 @@ function App() {
     })}
      
    
-    </div>
+    </div> 
+    </div></div>
   );
 }
 
